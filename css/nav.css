@@ -1,0 +1,226 @@
+#mynav{
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.1);
+}
+
+/********************* header *********************/
+#header {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+#header p {
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+@media (max-width:905px) {
+    #header {
+        display: none !important;
+    }
+}
+
+#header a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+
+
+@media (max-width:1350px) {
+    #header a {
+        margin: 0 5px;
+    }
+}
+
+#header div {
+    display: inline-block;
+}
+
+#header span {
+    height: 14px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 21px;
+}
+
+#header-left {
+    float: left;
+}
+
+#header-right {
+    float: right;
+}
+
+#header-p {
+    width: 350px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+/********************* nav *********************/
+.nav>li {
+    z-index: 1001;
+    background: rgba(255, 255, 255, 1);
+}
+
+#mynav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* line-height: 70px; */
+    background: rgba(255, 255, 255, 1);
+    z-index: 1002;
+    /* overflow: hidden; */
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    background: rgba(255, 255, 255, 1);
+    height: 70px;
+    padding: 0;
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-brand {
+    vertical-align: middle;
+    height: 70px;
+    padding: 10px 15px;
+    line-height: 50px;
+}
+.navbar-brand>img {
+    display:inline
+}
+
+/* .navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+} */
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+/********************* nav **********************/
+.nav-tabs {
+    border-bottom: 0 !important;
+    display: block;
+}
+
+@media (max-width:915px) {
+    .nav-tabs a {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+
+    .nav-tabs .active {
+        border-bottom: 2px #0069B7 solid !important;
+    }
+}
+
+@media (max-width:500px) {
+    .nav-tabs a {
+        font-size: 14px !important;
+        font-weight: 300;
+        padding: 5px 1px !important;
+    }
+}
+
+.nav-tabs li {
+    display: block;
+    text-align: center;
+}
+
+.nav-tabs a {
+    color: #000000;
+    font-size: 22px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 36px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #0069B7;
+    cursor: default;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.second-nav {
+    padding: 3px 0 0 0;
+    background-color: #FFFFFF;
+    border-top: 1px rgba(235, 235, 235, 1) solid;
+    border-bottom: 1px rgba(235, 235, 235, 1) solid;
+}
+
+.nav-tabs .active {
+    border-bottom: 4px #0069B7 solid;
+}
+
+.tab-pane {
+    margin: 30px 0;
+}
+
+@media (max-width:991px) {
+    .tab-pane {
+        margin: 0 !important;
+    }
+}
+
+.tab-pane .col-sm-3,
+.col-xs-3 {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.tab-pane li {
+    list-style: none;
+    font-size: 16px;
+    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    line-height: 24px;
+    padding: 15px 0;
+}
+
+/* #myrow {
+    max-height: 400px;
+    min-height: 0px;
+    overflow-y: auto;
+    padding: 0 15px;
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.14);
+} */

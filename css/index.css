@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.col-sm-6 {
+    padding: 0 10px !important;
+}
+
+.col-xs-6,
+.col-xs-4 {
+    padding: 0 3px !important;
+}
+
+.col-xs-12 {
+    padding: 0 !important;
+}
